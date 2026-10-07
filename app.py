@@ -151,7 +151,7 @@ def forecast_industry(model, df: pd.DataFrame, industry: str, months_ahead: int 
 # ---------------------------------------------------------------------------
 # Streamlit UI
 # ---------------------------------------------------------------------------
-st.set_page_config(page_title="Market Trends | BizBuddyBot", page_icon="📈", layout="wide")
+st.set_page_config(page_title="Market Trends | BizBuddyBot", page_icon="", layout="wide")
 
 raw_df = generate_dataset()
 df = add_lag_features(raw_df)
