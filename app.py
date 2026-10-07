@@ -157,7 +157,7 @@ raw_df = generate_dataset()
 df = add_lag_features(raw_df)
 model, rmse, r2 = train_forecast_model(df)
 
-st.title("📈 Market Trends & Revenue Forecast")
+st.title("Market Trends & Revenue Forecast")
 st.caption("Part of the BizBuddyBot SME Toolkit - covers the same 15 industry categories used by the chatbot's guided business journey.")
 
 # ── Sidebar controls ──
